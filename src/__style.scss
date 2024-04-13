@@ -1,0 +1,33 @@
+@import 'font';
+@import 'button';
+body{
+    font-family: $font-letter ;
+    font-weight: $font-text;
+    font-style: $font-level;
+}
+
+.container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10%;
+
+& .__image
+  {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid red;
+  }
+ & .__image__heading
+{
+            margin-bottom: -10px;
+}
+
+&.__image__heading__sub
+{
+            font-family: cursive;
+            margin-top: 10px;
+}
+}
