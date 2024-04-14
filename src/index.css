@@ -1,4 +1,4 @@
-body{
+/* body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -86,5 +86,44 @@ body{
       flex-direction: column;
       max-width: 400px;
     }
-  }
+  } */
+
+
+
+  {/* <div className='section__head'>
+    <div className='section__head__container'>
+    <img className='section__head__container__image' src={Image2} alt="" />
+    <h2 className='section__head__container__heading'>Dhinesh kumar</h2>
+    <p className='section__head__container__sub'>Software Developer</p>
+    </div>
+      <div className='section__head__banner'>
+      <div className='section__head__banner__child'>
+      <p className='section__head__banner__child__para'>Web developer with a strong background in developing award-winning applications for a diverse clientele.
+         3+ years of industry experience includes programming, debugging, and wireframes.
+      </p>
+      </div>
+    <div className='section__head__banner__footer'>
+      <button className='section__head__banner__footer__btn'>Add User 2</button>
+    </div>
+    </div>
+   </div>
+
+
+   <div className='section__head'>
+  <div className='section__head__container' >
+    <img className='section__head__container__image' src={Image3} alt="" />
+    <h2 className='section__head__container__heading'>Ajith Kumar</h2>
+    <p className='section__head__container__sub'>Sr.Software Developer</p>
+    </div>
+      <div className='section__head__banner'>
+      <div className='section__head__banner__child'>
+      <p className='section__head__banner__child__para'>Web developer with a strong background in developing award-winning applications for a diverse clientele.
+         5+ years of industry experience includes programming, debugging, and wireframes.
+      </p>
+      </div>
+    <div className='section__head__banner__footer'>
+      <button className='section__head__banner__footer__btn'>Add User 3</button>
+    </div>
+    </div>
+   </div> */}
   

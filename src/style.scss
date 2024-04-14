@@ -1,0 +1,80 @@
+@import './scss/color.scss';
+@import './scss/font.scss';
+
+body{
+                  font-family: $font-letter;
+                  font-weight: $font-text;
+                  font-style: $font-level;
+}
+.section{
+                  @include displayflex (center,center);
+                  margin : 10%;
+
+  &__head{
+
+                  @include displayflex (center,center);
+                  width:300px;
+                  border:1px solid transparent;
+                  background-color: $bg4-color-backcolor;
+                  border-radius: 10px;
+                  text-align: center;
+                  padding: 10px;
+                  margin: 10px;
+                  box-shadow: 0px 2px 3px rgba(35, 35, 35, 0.3);
+                  flex-direction: column;
+
+  &__container{
+
+                  @include displayflex (center,center);
+                  flex-direction: column;
+                  margin-top: 10%;
+
+  &__image{
+      
+                  height: 150px;
+                  width: 150px;
+                  border-radius: 50%;
+                  border: 5px solid $bg3-color-proimage;
+                   }
+      
+
+  &__heading{
+           
+                  margin-bottom: -10px;
+      }
+
+  &__sub{
+                  font-family: cursive;
+                  margin-top: 10px;
+      }
+      }
+      
+  &__banner{
+                  @include displayflex (center,center);
+                  flex-direction: column;
+                  margin-top:-10px;
+
+  &__child{
+  &__para{
+                  font-weight: 400;
+                  font-style: italic;
+                  font-size:medium;
+
+  
+
+  }
+                  }
+  &__footer{
+  &__btn{
+                  @include displayflex (center,center);
+                  background-color:$bg1-color ;
+                  color: $bg2-color;
+                  border: 0px solid;
+                  padding:10px 20px;
+                  cursor: pointer;
+                  border-radius: 5px;         
+      }       
+      }        
+      }
+      } 
+      }
