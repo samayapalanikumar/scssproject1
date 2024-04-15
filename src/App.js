@@ -1,37 +1,23 @@
-
+import React from 'react';
 import Card from './components/card/card';
+import {dummydata} from './data/dummy';
+import './components/card/styles.scss';
 
+function App() {
+  return (
+    <div className='section'>
+        {
+            dummydata.map((list,id)=>{
+                console.log(list)
+                return(
+                    <Card data ={list}/>
+                )
+            })
+        }
+        
+        
+    </div>
+  )
+}
 
-
-// function App() {
-
-//   let data = [
-//     {
-//       Name : "Mahesh Kumar",
-//       Role : "Jr.Software Developer",
-//       User: "Add User 1",
-//     },
-//     {
-//       Name : "Dhinesh kumar",
-//       Role : "Software Developer",
-//       User: "Add User 2",
-//     },
-//     {
-//       Name : "Ajith Kumar",
-//       Role : "Sr.Software Developer",
-//       User: "Add User 3",
-//     },
-//   ]
-//   return( <>
-//   <div className='section'>
-
-//     <Card data={data[0]}/>
-//     <Card data={data[1]}/>
-//     <Card data={data[2]}/>
-   
-//     </div>
-//     </>)
-  
-// }
-
-// export default App;
+export default App

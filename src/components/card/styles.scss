@@ -10,6 +10,9 @@ body{
 .section{
                   @include displayflex (center,center);
                   margin : 10%;
+                                    @media screen and (max-width: 600px) {
+                                        flex-direction: column;
+                                    }
 
   &__head{
 
@@ -24,11 +27,20 @@ body{
                   box-shadow: 0px 2px 3px rgba(35, 35, 35, 0.3);
                   flex-direction: column;
 
-  &__container{
+                                    @media screen and (max-width: 600px) {
+                                        width: 100%;
+                                    }
 
+  &__container{
+ 
                   @include displayflex (center,center);
                   flex-direction: column;
                   margin-top: 10%;
+
+                                
+                                    @media screen and (max-width: 600px) {
+                                        margin-top: 5%;
+                                    }
 
   &__image{
       
@@ -55,13 +67,19 @@ body{
                   flex-direction: column;
                   margin-top:-10px;
 
+                                        @media screen and (max-width: 600px) {
+                                            margin-top: -20px;
+                                        }
+
   &__child{
   &__para{
                   font-weight: 400;
                   font-style: italic;
                   font-size:medium;
 
-  
+                                        @media screen and (max-width: 600px) {
+                                            font-size: small;
+                                        }
 
   }
                   }
@@ -73,7 +91,11 @@ body{
                   border: 0px solid;
                   padding:10px 20px;
                   cursor: pointer;
-                  border-radius: 5px;         
+                  border-radius: 5px; 
+                  
+                                        @media screen and (max-width: 600px) {
+                                            padding: 8px 16px;
+                                        }
       }       
       }        
       }
