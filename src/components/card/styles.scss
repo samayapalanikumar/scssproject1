@@ -1,5 +1,6 @@
-@import './scss/color.scss';
-@import './scss/font.scss';
+@import '/src/scss/color.scss';
+@import '/src/scss/font.scss';
+@import '/src/scss/variable.scss';
 
 body{
                   font-family: $font-letter;
